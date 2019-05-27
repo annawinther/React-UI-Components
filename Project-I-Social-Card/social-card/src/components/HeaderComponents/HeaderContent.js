@@ -9,7 +9,9 @@ const headerText = {
 
 function HeaderContent ({ content }) {
     return (
+        <div className="header-content">
         <h3>{headerText.text}</h3>
+        </div>
     )
 }
 export default HeaderContent;
