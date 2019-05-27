@@ -8,6 +8,8 @@ import App from './App';
 // import HeaderTitle from './HeaderTitle';
 // import HeaderContent from './HeaderTitle';
 import HeaderContainer from './components/HeaderComponents/HeaderContainer.js';
+import CardContainer from './components/CardComponents/CardContainer.js';
 
 ReactDOM.render(<App />, document.getElementById('root'));
 ReactDOM.render(<HeaderContainer />, document.getElementById('root'));
+// ReactDOM.render(<CardContainer />, document.getElementById('root'));
