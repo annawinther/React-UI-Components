@@ -46,7 +46,7 @@ import HeaderContent from './HeaderContent';
         <HeaderTitle
           name="Lambda School"
           handle="@LambdaSchool"
-          timestamp="27th May 2019"
+          timestamp="27 May"
         />
         <HeaderContent />
       </div>

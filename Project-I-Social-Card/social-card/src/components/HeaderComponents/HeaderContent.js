@@ -9,7 +9,7 @@ const headerText = {
 
 function HeaderContent ({ content }) {
     return (
-        <h1>{headerText.text}</h1>
+        <h3>{headerText.text}</h3>
     )
 }
 export default HeaderContent;
