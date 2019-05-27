@@ -6,8 +6,8 @@ function HeaderTitle( {header, handle, timestamp} ) {
     return (
       <div className="header-title">
         <h3>{header}</h3>
-        <h4>{handle}</h4>
-        <h4>{timestamp}</h4>
+        <span>{handle}</span>
+        <p>{timestamp}</p>
       </div>
     );
   }

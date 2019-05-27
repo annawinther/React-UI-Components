@@ -3,7 +3,7 @@ import './Header.css';
 // import ReactDOM from 'react-dom';
 import ImageThumbnail from './ImageThumbnail';
 import HeaderTitle from './HeaderTitle';
-import HeaderContent from './HeaderTitle';
+import HeaderContent from './HeaderContent';
 
 // function HeaderContainer ({ }) {
 //     return(
