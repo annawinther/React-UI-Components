@@ -8,13 +8,13 @@ const imageattribute = {
     alt: "lambda-logo-red",
 }
 
-// function ImageThumbnail({imageattribute}) {
-//     return (
-//         <img src={imageattribute.src}/>
-//     )
-// }
+function ImageThumbnail({content}) {
+    return (
+        <img alt="" src={imageattribute.src}/>
+    )
+}
 
- <ImageThumbnail imageSource={imageattribute.src} /> ;
+//  <ImageThumbnail imageSource={imageattribute.src} /> 
 
 
  export default ImageThumbnail;

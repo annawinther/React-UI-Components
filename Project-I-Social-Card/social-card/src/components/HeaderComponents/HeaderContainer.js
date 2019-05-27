@@ -27,11 +27,11 @@ const imageSource = {
     alt: "lambda logo red"
   };
   
-  const headerTitleContent = {
-    name: "Lambda School",
-    handle: "@LambdaSchool",
-    timestamp: "27 May"
-  };
+  // const headerTitleContent = {
+  //   name: "Lambda School",
+  //   handle: "@LambdaSchool",
+  //   timestamp: "27 May"
+  // };
   
   const headerText = {
     text:
