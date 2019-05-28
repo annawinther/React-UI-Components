@@ -1,9 +1,9 @@
 import React from 'react';
 import './Display.css';
 
-function CalculatorDisplay ({display}) {
+function CalculatorDisplay ({ display }) {
     return (
-        <div>
+        <div className="calculator-display">
             <h1>{display}</h1>
         </div>
     );

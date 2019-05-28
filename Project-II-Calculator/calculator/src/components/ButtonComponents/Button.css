@@ -1,3 +1,25 @@
+
+.calculator{
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+}
+.row{
+    display:flex;
+    flex-direction: row;
+}
+
+.action-buttons{
+    padding: 20px;
+    width: 110px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.symbols{
+   padding: 20px;
+}
+
 .numbers{
-    
+    padding: 20px;
 }
