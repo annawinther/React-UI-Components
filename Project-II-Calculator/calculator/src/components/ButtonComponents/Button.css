@@ -14,7 +14,7 @@
     display: flex;
     flex-direction: column;
     padding: 20px;
-    width: 100%;
+    width: 480%;
     text-align: center;
     border: 1px solid grey;
     font-size: 30px;
@@ -26,19 +26,18 @@
 } */
 .symbols{
    padding: 20px;
-   width:25%;
+   width:100%;
    border: 1px solid grey;
    background-color: brown;
    color: white;
    font-weight: bold;
    text-align: center;
    font-size: 30px;
-   
 }
 
 .numbers{
     padding: 20px;
-    width: 75gi%;
+    width: 100%;
     border: 1px solid grey;
     font-weight: bold;
     text-align: center;
