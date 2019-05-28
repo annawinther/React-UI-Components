@@ -15,7 +15,7 @@ const App = () => {
       <CalculatorDisplay display={0}/>
       </div>
       <div className="row">
-      <ActionButton text='clear' buttonStyle='clear' />
+      <ActionButton className="action" text='clear' buttonStyle='clear' />
       <SymbolButton  text='/' buttonStyle='symbol' />
       </div>
       <div className="row">
@@ -37,7 +37,7 @@ const App = () => {
       <SymbolButton  text='+' buttonStyle='symbol' />
       </div>
       <div className="row">
-      <ActionButton text='0' buttonStyle='zero' />
+      <ActionButton className="action" text='0' buttonStyle='zero' />
       <SymbolButton text='=' buttonStyle='symbol'/>
       
      </div>

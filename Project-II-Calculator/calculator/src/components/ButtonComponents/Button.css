@@ -3,6 +3,7 @@
     display:flex;
     flex-direction:column;
     justify-content: space-between;
+    margin: 10%;
 }
 .row{
     display:flex;
@@ -10,16 +11,28 @@
 }
 
 .action-buttons{
+    display: flex;
+    flex-direction: column;
     padding: 20px;
-    width: 110px;
+    width: 100%;
     text-align: center;
     border: 1px solid black;
 }
 
+/* .action{
+    text-align: center;
+    border: 1px solid black;
+} */
 .symbols{
    padding: 20px;
+   width:100%;
+   border: 1px solid black;
+   background-color: brown;
+   color: white;
 }
 
 .numbers{
     padding: 20px;
+    width:100%;
+    border: 1px solid black;
 }
