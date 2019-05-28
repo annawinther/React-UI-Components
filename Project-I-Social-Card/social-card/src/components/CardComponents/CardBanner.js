@@ -7,7 +7,7 @@ import './Card.css';
 
 function CardBanner ({ url, alt }){
     return (
-        <div> 
+        <div className="card-banner"> 
         <img alt={alt} src={url} />
         </div>
     )

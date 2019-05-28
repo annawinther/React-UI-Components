@@ -12,9 +12,9 @@ import CardContent from './CardContent';
 //     header: 'Get started with React'
   
 //   }
-function CardContainer ({cardContent }) {
+function CardContainer ({ cardContent }) {
     return (
-        <div className = "car-container">
+        <div className = "card-container">
         <CardBanner url={cardContent.url} alt={cardContent.alt}/>
         <CardContent header={cardContent.header} text={cardContent.text}/>
         </div>

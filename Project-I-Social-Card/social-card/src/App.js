@@ -18,7 +18,7 @@ const image = {
 const cardContent = {
   url: 'https://tk-assets.lambdaschool.com/fcd75197-7d12-46ec-bc9e-4130f34822fa_reactbackground.png',
   alt: 'card image',
-  text: 'React makesit ainless to create interactive UIs. Design simple views for each state in your application',
+  text: 'React makes it painless to create interactive UIs. Design simple views for each state in your application',
   header: 'Get started with React'
 
 }
