@@ -1,6 +1,21 @@
 import React from 'react';
 import './App.css';
 
+const content = {
+  title: "Lambda School",
+  handle: "@LambdaSchool",
+  time: "27 May",
+  text: "Let's learn React by building simple interfaces with components. Don't try to overthink it, just keep it simple and have fun. ONce you feel comfortable using components you are well on your way to mastering React!"
+}
+
+const image = {
+  url: "https://tk-assets.lambdaschool.com/1c1b7262-cf23-4a9f-90b6-da0d3c74a5c6_lambdacrest.png",
+  alt: "logo"
+}
+
+
+
+
 const App = () => {
   return (
     <div>

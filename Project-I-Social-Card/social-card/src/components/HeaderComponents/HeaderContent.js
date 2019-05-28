@@ -7,7 +7,7 @@ const headerText = {
   };
 
 
-function HeaderContent ({ content }) {
+function HeaderContent ( ) {
     return (
         <div className="header-content">
         <h3>{headerText.text}</h3>

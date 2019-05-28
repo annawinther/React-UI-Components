@@ -13,7 +13,7 @@ const imageattribute = {
 //     alt: "lambda logo red"
 //   };
 
-function ImageThumbnail({content}) {
+function ImageThumbnail( ) {
     return (
         <img alt="" src={imageattribute.src}/>
     )
