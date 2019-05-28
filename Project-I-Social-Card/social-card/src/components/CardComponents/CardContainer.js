@@ -14,9 +14,13 @@ import CardContent from './CardContent';
 //   }
 function CardContainer ({ cardContent }) {
     return (
-        <div className = "card-container">
-        <CardBanner url={cardContent.url} alt={cardContent.alt}/>
-        <CardContent header={cardContent.header} text={cardContent.text}/>
+        <div className = "card-container" onClick={(e) => {
+            window.location.href="https://www.reactjs.org"}
+        }>
+          <div>
+            <CardBanner url={cardContent.url} alt={cardContent.alt}/>
+            <CardContent header={cardContent.header} text={cardContent.text}/>
+           </div>  
         </div>
     )
 }
