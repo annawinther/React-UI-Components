@@ -19,21 +19,15 @@ const App = () => {
       <SymbolButton  text='÷' buttonStyle='symbol' />
       </div>
       <div className="row">
-      <NumberButton text='7' buttonStyle='number' />
-      <NumberButton text='8' buttonStyle='number' />
-      <NumberButton text='9' buttonStyle='number' />
+      {[7,8,9].map(number => <NumberButton text={number} buttonStyle="number"/>)}
       <SymbolButton  text='x' buttonStyle='symbol' />
       </div>
       <div className="row">
-      <NumberButton text='4' buttonStyle='number' />
-      <NumberButton text='5' buttonStyle='number' />
-      <NumberButton text='6' buttonStyle='number' />
+      {[4,5,6].map(number => <NumberButton text={number} buttonStyle="number"/>)}
       <SymbolButton  text='-' buttonStyle='symbol' />
       </div>
       <div className="row">
-      <NumberButton text='1' buttonStyle='number' />
-      <NumberButton text='2' buttonStyle='number' />
-      <NumberButton text='3' buttonStyle='number' />
+      {[1,2,3].map(number => <NumberButton text={number} buttonStyle="number"/>)}
       <SymbolButton  text='+' buttonStyle='symbol' />
       </div>
       <div className="row">
