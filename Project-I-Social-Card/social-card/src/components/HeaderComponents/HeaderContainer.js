@@ -2,7 +2,6 @@ import React from 'react';
 import './Header.css';
 // import ReactDOM from 'react-dom';
 import ImageThumbnail from './ImageThumbnail';
-import HeaderTitle from './HeaderTitle';
 import HeaderContent from './HeaderContent';
 
 // function HeaderContainer ({ }) {
@@ -38,19 +37,27 @@ import HeaderContent from './HeaderContent';
   //     "Let's learn React by building simple interfaces with components. Don't try to overthink it, just keep it simple and have fun. ONce you feel comfortable using components you are well on your way to mastering React!"
   // };
   
-  
-  function HeaderContainer() {
-    return (
+  // function HeaderContainer() {
+  //   return (
+  //     <div className="header-container">
+  //       <ImageThumbnail />
+  //       <HeaderTitle
+  //         name="Lambda School"
+  //         handle="@LambdaSchool"
+  //         timestamp="27 May"
+  //       />
+  //       <HeaderContent />
+  //     </div>
+  //   );
+  // }
+
+  function HeaderContainer ({ content, image }) {
+    return(
       <div className="header-container">
-        <ImageThumbnail />
-        <HeaderTitle
-          name="Lambda School"
-          handle="@LambdaSchool"
-          timestamp="27 May"
-        />
-        <HeaderContent />
+        <ImageThumbnail url={image.url} alt={image.alt}/>
+        <HeaderContent content={content}/>
       </div>
-    );
+    )
   }
 
   export default HeaderContainer;

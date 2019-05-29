@@ -4,12 +4,16 @@
     flex-direction: row;
     border: 1px solid red;
     /* justify-content: space-between; */
-
 }
-
+.header-content{
+    display: flex;
+    flex-direction: column;
+}
 .header-title{
-    color: blue;
     display: flex;
     flex-direction: row;
-    margin: 20px;
+    font-size: 10px;
+    vertical-align: center;
+    margin: 0px;
 }
+
